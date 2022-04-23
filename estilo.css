@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1.5em;
+    font-family:Arial, Helvetica, sans-serif;
+    background: #98cdff;;
+}
+
+#cabecalho{
+    background: purple;
+    color: aqua;
+    text-align: center;
+    padding: 40px;
+    height: 75px;
+    margin: 15px;
+}
+
+#area-principal{
+    padding: 15px;
+    width: 920px;
+    margin: 0 auto;
+}
+
+.foto{
+    width: 460px;
+    float: left;
+}
+
+.texto{
+    width: 450px;
+    float: right;}
+
+#img-1{
+    border: 10px solid white;
+}
+
+#img-2{
+    border: 10px solid white;
+    margin-top: 500px;
+    margin-left: -450px;
+    display: inline;    
+}
+
+#p1, .p2{
+    font-size: 0.75em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    margin-left: 40px;
+    padding: 10px;
+    border: 3px solid ;
+}
+
+#p1{
+    margin-top: -900px;
+}
+
+.p2{
+    margin-top: 20px;
+}
+
+#pergunta{
+    background: purple;
+    width: 410px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 40px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h3{
+    color: white;
+    font-size: 1em; 
+    padding-top: 10px;   
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    color: white;
+    margin-top: 600px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 15px;
+    background: purple;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+a:hover{
+    font-size: 1.2em;
+    background-color: #98cdff;
+}
+
+
